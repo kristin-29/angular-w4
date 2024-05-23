@@ -1,0 +1,121 @@
+.intersection {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .light-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .north,
+  .south {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .north {
+    top: 0;
+  }
+  
+  .south {
+    bottom: 0;
+  }
+  
+  .east,
+  .west {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .east {
+    right: 0;
+  }
+  
+  .west {
+    left: 0;
+  }
+  
+  .button-north,
+  .button-south,
+  .button-east,
+  .button-west {
+    background-color: #4db850; 
+    border: none;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 15px 32px;
+    transition-duration: 0.4s;
+  }
+  
+  .button-north:hover,
+  .button-south:hover,
+  .button-east:hover,
+  .button-west:hover {
+    background-color: #4db850;
+  }
+  
+  .button-north {
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .button-south {
+    position: absolute;
+    bottom: 160px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .button-east {
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    transform: translateY(-50%);
+  }
+  
+  .button-west {
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    transform: translateY(-50%);
+  }
+  
+  .panic-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #ff0e0e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .panic-button:hover {
+    background-color: #6d0000;
+  }
+  
+  .panic-button:disabled {
+    background-color: #fbd5d5f6;
+    cursor: not-allowed;
+  }

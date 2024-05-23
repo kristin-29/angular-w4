@@ -1,0 +1,25 @@
+<div class="intersection">
+    <div class="light-container">
+      <app-traffic-light #north class="north"></app-traffic-light>
+    </div>
+  
+    <div class="light-container">
+      <app-traffic-light #south class="south"></app-traffic-light>
+    </div>
+  
+    <div class="light-container">
+      <app-traffic-light #east class="east"></app-traffic-light>
+    </div>
+  
+    <div class="light-container">
+      <app-traffic-light #west class="west"></app-traffic-light>
+    </div>
+  
+    <button
+      class="accident-button"
+      (click)="startAccident()"
+      [disabled]="accident"
+    >
+      ACCIDENT!
+    </button>
+  </div>
