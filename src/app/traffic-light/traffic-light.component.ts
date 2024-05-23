@@ -24,7 +24,7 @@ export class TrafficLightComponent implements OnInit {
 
   clickButton() {
     if (this.color === 'yellow') {
-      alert("Be careful!");
+      alert("Be careful, don't crash!");
     }
   }
 }

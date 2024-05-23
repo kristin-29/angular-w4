@@ -3,19 +3,19 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 50px;
+    width: 100px;
     height: 150px;
-    background-color: black;
-    border-radius: 15px;
-    padding: 10px;
+    background-color: #ffc6f1;
+    border-radius: 20px;
+    padding: 5px;
     box-sizing: border-box;
   }
   
   .light {
     width: 30px;
     height: 30px;
-    border-radius: 50%;
-    opacity: 0.3;
+    border-radius: 40%;
+    opacity: 0.2;
   }
   
   .light.active {
@@ -23,31 +23,35 @@
   }
   
   .red {
-    background-color: red;
+    background-color: #ff0e0e;
+    border-radius: 50px;
   }
   
   .yellow {
-    background-color: yellow;
+    background-color: #fff820;
+    border-radius: 50px;
   }
   
   .green {
-    background-color: green;
+    background-color: #40f146;
+    border-radius: 50px;
   }
   
   button {
-    width: 50px;
+    width: 60px;
     height: 30px;
-    background-color: #4caf50;
+    border-radius: 15px;
+    background-color: #40f146;
     text-align: center;
-    color: white;
-    font-size: 12px;
+    color: #ffdcf6;
+    font-size: 15px;
   }
   
   button:hover {
-    background-color: #45a049;
+    background-color: #34c339;
   }
   
   button:disabled {
-    background-color: grey;
+    background-color: #333030;
     cursor: not-allowed;
   }

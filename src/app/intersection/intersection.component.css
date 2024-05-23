@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 30px;
   }
   
   .north,
@@ -55,10 +55,10 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 15px;
+    margin: 5px 3px;
     cursor: pointer;
-    padding: 15px 32px;
+    padding: 17px 30px;
     transition-duration: 0.4s;
   }
   
@@ -71,14 +71,14 @@
   
   .button-north {
     position: absolute;
-    top: 160px;
+    top: 150px;
     left: 50%;
     transform: translateX(-50%);
   }
   
   .button-south {
     position: absolute;
-    bottom: 160px;
+    bottom: 150px;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -86,36 +86,36 @@
   .button-east {
     position: absolute;
     top: 50%;
-    right: 60px;
+    right: 70px;
     transform: translateY(-50%);
   }
   
   .button-west {
     position: absolute;
     top: 50%;
-    left: 60px;
+    left: 70px;
     transform: translateY(-50%);
   }
   
-  .panic-button {
+  .accident-button {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 10px 20px;
-    font-size: 20px;
-    background-color: #ff0e0e;
-    color: white;
+    padding: 15px 25px;
+    font-size: 25px;
+    background-color: #ff54cc;
+    color: #ffd3ed;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
   }
   
-  .panic-button:hover {
-    background-color: #6d0000;
+  .accident-button:hover {
+    background-color: #ff00b3;
   }
   
-  .panic-button:disabled {
-    background-color: #fbd5d5f6;
+  .accident-button:disabled {
+    background-color: #fcc4f6;
     cursor: not-allowed;
   }
